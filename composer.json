@@ -1,0 +1,27 @@
+{
+    "name":        "helthe/chronos",
+    "type":        "library",
+    "description": "Helthe Chronos: An object oriented cron job library",
+    "keywords":    ["cron", "crontab", "schedule", "scheduling", "cron management", "cron job"],
+    "homepage":    "https://helthe.co",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Carl Alexander",
+            "email": "carlalexander@helthe.co"
+        }
+    ],
+    "require": {
+        "php":             ">=5.3.3",
+        "symfony/process": "~2.2"
+    },
+    "autoload": {
+        "psr-0": { "Helthe\\Component\\Chronos\\": "" }
+    },
+    "target-dir": "Helthe/Component/Chronos",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
