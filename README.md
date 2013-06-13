@@ -19,7 +19,7 @@ Add the following in your componser.json:
 
 ### CRON expression
 
-At its core, the component uses a CRON expression parser to validate all cron jobs. It supports all the language
+At its core, Chronos uses a CRON expression parser to validate all cron jobs. It supports all the language
 characteristics defined [here](http://en.wikipedia.org/wiki/Cron#CRON_expression) as well as the
 [predefined scheduling definitions](http://en.wikipedia.org/wiki/Cron#Predefined_scheduling_definitions) except `@reboot`.
 
@@ -53,8 +53,8 @@ You can also programmatically run cron jobs.
 
 ## Credits
 
-This component was created to fill the need for managing recurring jobs in PHP. The initial inspiration for this
-component was to have a [Whenever](https://github.com/javan/whenever) equivalent in PHP.
+Chronos was created to fill the need for managing recurring jobs in PHP. The initial inspiration for it was to
+have a [Whenever](https://github.com/javan/whenever) equivalent in PHP.
 
 The CRON expression parser was initially based on the [parser](https://github.com/mtdowling/cron-expression)
 built by Michael Dowling.
