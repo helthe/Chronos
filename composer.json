@@ -1,7 +1,7 @@
 {
     "name":        "helthe/chronos",
     "type":        "library",
-    "description": "Helthe Chronos: An object oriented cron job library",
+    "description": "Chronos: An object oriented cron job library",
     "keywords":    ["cron", "crontab", "schedule", "scheduling", "cron management", "cron job"],
     "homepage":    "https://helthe.co",
     "license":     "MIT",
