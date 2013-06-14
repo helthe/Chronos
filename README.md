@@ -1,7 +1,6 @@
 # Chronos
 
-The Helthe Chronos provides an object oriented library for managing cron jobs
-both with crontab and programmatically.
+Chronos provides an object oriented library for managing cron jobs both with crontab and programmatically.
 
 [![Build Status](https://secure.travis-ci.org/helthe/Chronos.png?branch=master)](http://travis-ci.org/helthe/Chronos)
 
