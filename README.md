@@ -8,11 +8,13 @@ Chronos provides an object oriented library for managing cron jobs both with cro
 
 Add the following in your componser.json:
 
-    {
-        "require": {
-            "helthe/chronos": "~1.0"
-        }
+```json
+{
+    "require": {
+        "helthe/chronos": "~1.0"
     }
+}
+```
 
 ## Usage
 
@@ -26,29 +28,33 @@ characteristics defined [here](http://en.wikipedia.org/wiki/Cron#CRON_expression
 
 You can use the library to both deploy cron jobs directly into crontab.
 
-    use Helthe\Component\Chronos\Crontab;
-    use Helthe\Component\Chronos\Job\CommandJob;
+```php
+use Helthe\Component\Chronos\Crontab;
+use Helthe\Component\Chronos\Job\CommandJob;
 
-    $crontab = new Crontab();
-    $job = new CommandJob('@hourly', '/usr/bin/my_great_command');
+$crontab = new Crontab();
+$job = new CommandJob('@hourly', '/usr/bin/my_great_command');
 
-    $crontab->add($job);
+$crontab->add($job);
 
-    $crontab->update();
+$crontab->update();
+```
 
 ### CronJobScheduler
 
 You can also programmatically run cron jobs.
 
-    use Helthe\Component\Chronos\CronJobScheduler;
-    use Helthe\Component\Chronos\Job\CommandJob;
+```php
+use Helthe\Component\Chronos\CronJobScheduler;
+use Helthe\Component\Chronos\Job\CommandJob;
 
-    $scheduler = new CronJobScheduler();
-    $job = new CommandJob('@hourly', '/usr/bin/my_great_command');
+$scheduler = new CronJobScheduler();
+$job = new CommandJob('@hourly', '/usr/bin/my_great_command');
 
-    $scheduler->add($job);
+$scheduler->add($job);
 
-    $scheduler->runJobs();
+$scheduler->runJobs();
+```
 
 ## Credits
 
@@ -62,6 +68,8 @@ built by Michael Dowling.
 
 You can run the unit tests with the following command:
 
-    $ cd path/to/Helthe/Component/XXX/
-    $ composer.phar install --dev
-    $ phpunit
+```bash
+$ cd path/to/Helthe/Component/XXX/
+$ composer.phar install --dev
+$ phpunit
+```
