@@ -1,8 +1,6 @@
-# Chronos
+# Chronos [![Build Status](https://secure.travis-ci.org/helthe/Chronos.png?branch=master)](http://travis-ci.org/helthe/Chronos) [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/helthe/Chronos/badges/quality-score.png?s=99255d57c39f4377574c7820c1a8d36a32b9ee36)](https://scrutinizer-ci.com/g/helthe/Chronos/)
 
 Chronos provides an object oriented library for managing cron jobs both with crontab and programmatically.
-
-[![Build Status](https://secure.travis-ci.org/helthe/Chronos.png?branch=master)](http://travis-ci.org/helthe/Chronos) [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/helthe/Chronos/badges/quality-score.png?s=99255d57c39f4377574c7820c1a8d36a32b9ee36)](https://scrutinizer-ci.com/g/helthe/Chronos/)
 
 ## Installation
 
